@@ -1,6 +1,6 @@
 import request from "supertest";
 import { expect } from "chai";
-import { app, server } from "../index.mjs";
+import { app, server } from "../index.js";
 
 describe("GET /", function () {
   after(function (done) {
